@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Humidity</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-color:gray;">        
+  <nav class="navbar navbar-light bg-light">
+    <button type="button" class="btn btn-success" disabled>Latitude</button>
+    <ul class="nav ml-auto w-100 justify-content-end">      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>            
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+          <a class="dropdown-item" href="humidity.html">Humidity</a>
+          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+          <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="comparison.html">Comparison</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="data.html">Data</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Summary</a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+
+<div class="container-fluid" style="padding-top:50px">
+    <div class="row">
+
+      <div class="col-md-6">
+        <div class="box_sum">
+          <h1>Humidity</h1>
+          <hr/><br/>    
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-sm-6">
+            <img src="Resources/assets/images/Fig2.png" class="img-fluid" alt="City Latitude vs Humidity" style="width: 100%">
+          </div>
+          <div class="col-sm-6">
+            <div class="textbox_sum">
+              <p class="text-justify">
+                  As expected, the humity rises as one approaches the equator (0 Deg. Latitude.) More interestingly, however, is the fact that the northern hemisphere tends to be warmer this time
+                  of the year than the southern hemisphere. This may be due to the precipitations at the time of the year this data was gathered. 
+              </p>
+            </div>
+          </div>          
+        </div>   
+      </div>
+    
+      <div class="col-md-6">
+        <div class="box_sum">
+          <h1>Visualizations</h1>
+          <hr/><br/>
+        </div>
+        
+        <div class="row no-gutters">
+          <div class="col-sm-6">
+            <a href="max_temperature.html"><img src="Resources/assets/images/Fig1.png" class="img-fluid" alt="City Latitude vs Max Temperature" style="width: 100%"></a>
+          </div> 
+          <div class="col-sm-6">
+            <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" class="img-fluid" alt="City Latitude vs Humidity" style="width: 100%; border: 3px solid; border-color: seagreen"></a>
+          </div>
+          <div class="col-sm-6">
+            <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" class="img-fluid" alt="City Latitude vs Cloudiness" style="width: 100%"></a>
+          </div>
+          <div class="col-sm-6">
+            <a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png" class="img-fluid" alt="City Latitude vs Wind Speed" style="width: 100%"></a>
+          </div>
+        </div>
+     </div>   
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
