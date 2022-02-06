@@ -21,10 +21,11 @@
 }
 
 .textbox_sum {
-  height: 320px;
-  padding: 20px;
+  height: 120px;
+  padding: 40px;
   color: black;
   background: white;
+  text-align: center;
 }
 
 .textbox_comp {
